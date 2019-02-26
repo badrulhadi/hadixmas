@@ -3,49 +3,6 @@ iframe {
     width: 100%;
 }
 
-.return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 6px;
-    font-size: 30px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-
-.return-to-top:hover i {
-    color: #fff;
-    top: 1px;
-}
-
 html,
 body {
     font-size: 14px !important;
@@ -89,6 +46,87 @@ body {
 
 .display-4 {
     font-size: 2em;
+}
+
+
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 6px;
+    font-size: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.return-to-top:hover i {
+    color: #fff;
+    top: 1px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .return-to-top {
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.7);
+        width: 45px;
+        height: 45px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    
+    .return-to-top i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 14px;
+        top: 6px;
+        font-size: 30px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
 }
 
 @media (min-width: 48em) {
@@ -136,19 +174,6 @@ body {
     }
 }
 
-/* // Pen Specific Styles
-.jumbotron {
-    font-size: 16px;
-    @media (min-width: 62em) {
-        font-size: 20px;
-    }
-    h1 {
-        border-bottom: 4px solid #0275d8;
-    }
-    p.lead {
-        border-radius: 4px;
-    }
-} */
 
 
 .sticky-action {
@@ -169,11 +194,23 @@ body {
 
 img[class~=whatsapp] {
     /* height: .239583333in; */
-    height: 24px;
+    /* height: 24px; */
+    /* margin: 0px -12px 2px -7px; */
+    height: 50px;
+    /* box-shadow: 2px 2px 9px #999;
+    border-radius: 50px;
+    background-color: #25d366; */
 }
 
 img[class~=phone] {
-    height: 20px;
+    height: 18px;
+    margin-left: 5px;
+    /* margin: 14px; */
+}
+
+img[class~=call] {
+    height: 23px;
+    margin: 14px;
 }
 
 img[class~=google] {
@@ -186,6 +223,42 @@ img[class~=apple] {
     /* display: block; */
     margin: 0px 6px 4px 0px;
     height: 21px;
+}
+
+.whatsapp-text{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.call-text{
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.ga-contact-call{
+    display: block;
+}
+
+.contact{
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.float{
+	/* position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px; */
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    /* font-size: 30px; */
+    box-shadow: 2px 2px 3px #999;
+    /* z-index: 100; */
+    padding: 6px;
 }
 
 
