@@ -421,19 +421,20 @@
     }
 
     function mapEventGoogle(){
-      ga('send', 'event', 'Maps', 'click', 'Google Map');
+      gtag('event', 'click', {'event_category' : 'Maps', 'event_label' : 'Google Map'});
     }
 
     function mapEventWaze(){
-      ga('send', 'event', 'Maps', 'click', 'Waze');
+      gtag('event', 'click', {'event_category' : 'Maps', 'event_label' : 'Waze'});
     }
 
     function CalendarGoogle(){
-      ga('send', 'event', 'Calendar', 'click', 'Google Calendar');
+      gtag('event', 'click', {'event_category' : 'Calendar', 'event_label' : 'Google Calendar'});
     }
+    
 
     function CalendarApple(){
-      ga('send', 'event', 'Calendar', 'click', 'Apple Calendar');
+      gtag('event', 'click', {'event_category' : 'Calendar', 'event_label' : 'Apple Calendar'});
     }
 
     function contactEvent(){
