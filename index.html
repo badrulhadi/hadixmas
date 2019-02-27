@@ -175,9 +175,9 @@
               Bagi yang memandu, lokasi majlis adalah berdekatan dengan Kampus UTAR Sungai Long.</p>
           <p class="my-3">
               Untuk pengangkutan awam, tren yang terdekat adalah MRT Batu Sebelas Cheras (SBK30). Anda boleh guna Grab atau teksi untuk sampai ke lokasi majlis.</p>
-          <a class="btn btn-primary"
+          <a class="btn btn-primary" onclick="mapEventWaze()"
             href="https://waze.com/ul/hw283k9cqy" target="_blank">Guna Waze </a>
-          <a class="btn btn-success"
+          <a class="btn btn-success" onclick="mapEventGoogle()"
             href="https://goo.gl/maps/rqmS5gScA3T2" target="_blank">Guna Google Maps </a>
         </div>
         <div class="col-md-6 my-2">
@@ -196,13 +196,13 @@
 
           <div class="row mt-2">
             <div class="col-12 text-center my-1">
-              <a class="btn btn-info col-sm-6" target="_blank" href="./assets/hadixmas_wedding.ics">
+              <a class="btn btn-info col-sm-6" onclick="CalendarApple()" target="_blank" href="./assets/hadixmas_wedding.ics">
                 <img class="apple" src="./assets/apple-logo.png">
                   Apple Calendar
               </a>
             </div>
             <div class="col-12 text-center my-1">
-              <a  class="btn btn-info col-sm-6" target="_blank" 
+              <a  class="btn btn-info col-sm-6" onclick="CalendarGoogle()" target="_blank" 
                 href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NDducWpnNWltYnI3MzZxMzdxcmNsNXEzNHMgNGhxNGlnaDdidm90Y2pidGdoZW42bWc3MG9AZw&tmsrc=4hq4igh7bvotcjbtghen6mg70o%40group.calendar.google.com">
                 <img class="google" src="./assets/google-logo.png">                
                 Google Calendar              
@@ -220,7 +220,7 @@
               Ibrahim Abustan
             </li>
             <li class="list-inline-item float-right">
-              <button type="button" class="btn btn-success contact" data-toggle="modal" data-target="#contactPerson1">
+              <button type="button" onclick="contactEvent()" class="btn btn-info contact" data-toggle="modal" data-target="#contactPerson1">
                 +60 12-238 5287
                 <img class="phone" src="./assets/phone-icon.png">
               </button>
@@ -240,13 +240,13 @@
                 <div class="modal-body">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item bg-light py-1">
-                      <a href="https://api.whatsapp.com/send?phone=60122385287" class="ga-contact-call ">
+                      <a href="https://api.whatsapp.com/send?phone=60122385287" onclick="contactEventWhatsapp()" class="ga-contact-call ">
                         <img class="whatsapp" src="./assets/whatsapp-icon.png">
                         <span class="whatsapp-text align-middle">Whatsapp</span>
                       </a>
                     </li>
                     <li class="list-group-item bg-light py-1">
-                      <a class="ga-contact-call " href="tel:60122385287">
+                      <a class="ga-contact-call " href="tel:60122385287" onclick="contactEventCall()">
                         <img class="call" src="./assets/phone-icon.png">
                         <span class="call-text align-middle">Call</span>
                       </a>
@@ -262,7 +262,7 @@
               Nor Azizan Abdul Aziz
             </li>
             <li class="list-inline-item float-right">
-              <button type="button" class="btn btn-success contact" data-toggle="modal" data-target="#contactPerson2">
+              <button type="button" onclick="contactEvent()" class="btn btn-info contact" data-toggle="modal" data-target="#contactPerson2">
                 +60 19-200 9792
                 <img class="phone" src="./assets/phone-icon.png">
               </button>
@@ -282,13 +282,13 @@
                 <div class="modal-body">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item bg-light py-1">
-                      <a href="https://api.whatsapp.com/send?phone=60192009792" class="ga-contact-call ">
+                      <a href="https://api.whatsapp.com/send?phone=60192009792" onclick="contactEventWhatsapp()" class="ga-contact-call ">
                         <img class="whatsapp" src="./assets/whatsapp-icon.png">
                         <span class="whatsapp-text align-middle">Whatsapp</span>
                       </a>
                     </li>
                     <li class="list-group-item bg-light py-1">
-                      <a class="ga-contact-call " href="tel:60192009792">
+                      <a class="ga-contact-call " href="tel:60192009792" onclick="contactEventCall()">
                         <img class="call" src="./assets/phone-icon.png">
                         <span class="call-text align-middle">Call</span>
                       </a>
@@ -304,7 +304,7 @@
               Muhammad Fatih
             </li>
             <li class="list-inline-item float-right">
-              <button type="button" class="btn btn-success contact" data-toggle="modal" data-target="#contactPerson3">
+              <button type="button" onclick="contactEvent()" class="btn btn-info contact" data-toggle="modal" data-target="#contactPerson3">
                 +60 17-292 9699
                 <img class="phone" src="./assets/phone-icon.png">
               </button>
@@ -324,13 +324,13 @@
                 <div class="modal-body">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item bg-light py-1">
-                      <a href="https://api.whatsapp.com/send?phone=60172929699" class="ga-contact-call ">
+                      <a href="https://api.whatsapp.com/send?phone=60172929699" onclick="contactEventWhatsapp()" class="ga-contact-call ">
                         <img class="whatsapp" src="./assets/whatsapp-icon.png">
                         <span class="whatsapp-text align-middle">Whatsapp</span>
                       </a>
                     </li>
                     <li class="list-group-item bg-light py-1">
-                      <a class="ga-contact-call " href="tel:60172929699">
+                      <a class="ga-contact-call " href="tel:60172929699" onclick="contactEventCall()">
                         <img class="call" src="./assets/phone-icon.png">
                         <span class="call-text align-middle">Call</span>
                       </a>
@@ -346,7 +346,7 @@
               Munirah Aisyah
             </li>
             <li class="list-inline-item float-right">
-              <button type="button" class="btn btn-success contact" data-toggle="modal" data-target="#contactPerson4">
+              <button type="button" onclick="contactEvent()" class="btn btn-info contact" data-toggle="modal" data-target="#contactPerson4">
                 +60 12-334 3957
                 <img class="phone" src="./assets/phone-icon.png">
               </button>
@@ -366,13 +366,13 @@
                 <div class="modal-body">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item bg-light py-1">
-                      <a href="https://api.whatsapp.com/send?phone=60123343957" class="ga-contact-call ">
+                      <a href="https://api.whatsapp.com/send?phone=60123343957" onclick="contactEventWhatsapp()" class="ga-contact-call ">
                         <img class="whatsapp" src="./assets/whatsapp-icon.png">
                         <span class="whatsapp-text align-middle">Whatsapp</span>
                       </a>
                     </li>
                     <li class="list-group-item bg-light py-1">
-                      <a class="ga-contact-call " href="tel:60123343957">
+                      <a class="ga-contact-call " href="tel:60123343957" onclick="contactEventCall()">
                         <img class="call" src="./assets/phone-icon.png">
                         <span class="call-text align-middle">Call</span>
                       </a>
@@ -418,6 +418,34 @@
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+    }
+
+    function mapEventGoogle(){
+      ga('send', 'event', 'Maps', 'click', 'Google Map');
+    }
+
+    function mapEventWaze(){
+      ga('send', 'event', 'Maps', 'click', 'Waze');
+    }
+
+    function CalendarGoogle(){
+      ga('send', 'event', 'Calendar', 'click', 'Google Calendar');
+    }
+
+    function CalendarApple(){
+      ga('send', 'event', 'Calendar', 'click', 'Apple Calendar');
+    }
+
+    function contactEvent(){
+      ga('send', 'event', 'Contact', 'click', 'button');
+    }
+
+    function contactEventWhatsapp(){
+      ga('send', 'event', 'Contact', 'click', 'Whatsapp');
+    }
+
+    function contactEventCall(){
+      ga('send', 'event', 'Contact', 'click', 'Call');
     }
   </script>
 
