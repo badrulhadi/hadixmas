@@ -437,15 +437,15 @@
     }
 
     function contactEvent(){
-      ga('send', 'event', 'Contact', 'click', 'button');
+      gtag('event', 'click', {'event_category' : 'Contact', 'event_label' : 'button'});
     }
 
     function contactEventWhatsapp(){
-      ga('send', 'event', 'Contact', 'click', 'Whatsapp');
+      gtag('event', 'click', {'event_category' : 'Contact', 'event_label' : 'Whatsapp'});
     }
 
     function contactEventCall(){
-      ga('send', 'event', 'Contact', 'click', 'Call');
+      gtag('event', 'click', {'event_category' : 'Contact', 'event_label' : 'Call'});
     }
   </script>
 
