@@ -399,14 +399,15 @@ body{
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+    /* background: #00BF96; */
+    background: #b299cc;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #8b71a2;
 	display: inline-block;
 }
 
